@@ -1,0 +1,24 @@
+You are required to attempt the below questions in today's lab classes. You will be required to upload the solutions for this assignment on Google forms in Google classroom. You can email me to resolve your doubts. 
+
+Create the below classes and then create an object to demonstrate all the methods of their respective class. 
+
+Q1) Write a Java program to create a class called "BankAccount" with attributes for account number, account holder's name, and balance. Include methods for depositing and withdrawing money, as well as checking the balance.
+Use a constructor for setting the account number, account holder's name and balance to zero.
+
+Q2) Write a Java program to create a class called "Circle" with a radius attribute. Include 4 methods - to access and modify this attribute, calculate the area and circumference of the circle. Use a constructor for setting the radius attribute to zero. 
+
+Q3) Define a class CARRENTAL with the following details :
+
+    Class attributes : CarId of int type, CarType of string type. 
+    Define a constructor that sets the values of class attributes. eg: CarId="HR45AB4525", CarType="Fortuner"
+    Define GetCar() method which returns CarId and CarType.
+    GetRent() method which return rent of the car on the basis of car type, i.e. Small Car = 1000, Van = 800, SUV = 2500. Use switch-case construct. 
+
+Q4) Define a class employee with the following specification :
+
+    Class attributes : empno of type integer, ename of type String, basic, hr and da are of type float, netpay of type float.
+    Define a constructor that sets the default values of class attributes. String variables are set to null and numerical variables are set to 0. 
+    Methods :
+    Calculate() : A function to find basic+hra+da with the float return type.
+    havedata() : function to accept values for empno, ename, basic, hra, da as parameters and invoke calculate() to calculate netpay.
+    dispdata() : function to display all the class attributes.
